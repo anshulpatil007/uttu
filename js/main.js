@@ -9,9 +9,9 @@ jQuery(document).ready(function($){
 	var day = currentDate.getDate()
 	var month = currentDate.getMonth() + 1
 	var year = currentDate.getFullYear()
-	var date_string = year + ' 年 ' + month + ' 月 ' + day + ' 日'
-	day_count = dateDiffInDays(new Date("1/29/2016"), new Date());
-	document.getElementById('days').innerHTML = date_string + '，' + "我们已经在一起 " + day_count + " 天了"
+	var date_string = year + ' 2025 ' + month + ' Feb' + day + ' 14'
+	day_count = dateDiffInDays(new Date("14/02/2025"), new Date());
+	document.getElementById('days').innerHTML = date_string + '，' + " " + day_count + " "
 
 	//on scolling, show/animate timeline blocks when enter the viewport
 	$(window).on('scroll', function(){
